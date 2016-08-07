@@ -6,6 +6,7 @@
     <script type="text/javascript" src="resource/js/jquery_ui.js"></script>
     <link rel="stylesheet" href="resource/css/jquery_ui.css" />
     <link rel="stylesheet" type="text/css" href="resource/css/common.css">
+    <link rel="stylesheet" type="text/css" href="resource/css/page26.css" />
     <!--<link rel="stylesheet" type="text/css" href="resource/css/forMySelf_blog.css">-->
 
 
@@ -37,32 +38,46 @@
             <li><a href="forMySelf_contact.html" target="_blank">contact me</a></li>
         </ul>
         <div class="content">
-            <div id="myCarousel" class="carousel slide">
-                <!-- 轮播（Carousel）指标 -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <!-- 轮播（Carousel）项目 -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="resource/img/forMySelf/header.png" alt="First slide">
-                    </div>
-                    <div class="item">
-                        <img src="resource/img/forMySelf/new_time_person.png" alt="Second slide">
-                    </div>
-                    <div class="item">
-                        <img src="resource/img/forMySelf/new_world_time.png" alt="Third slide">
-                    </div>
-                </div>
-                <!-- 轮播（Carousel）导航 -->
-                <a class="carousel-control left" href="#myCarousel"
-                   data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" href="#myCarousel"
-                   data-slide="next">&rsaquo;</a>
+            <div class="canvas_border">
+                <canvas id="background"></canvas>
+                <canvas id="canvas"></canvas>
             </div>
-
+            <form>
+                <fieldset>
+                    <legend>Commander panel</legend>
+                    <ul>
+                        <li>
+                            spaceship No.1:
+                            <input type="button" value="launch" />
+                            <input type="button" value="fly" />
+                            <input type="button" value="stop" />
+                            <input type="button" value="destory" />
+                        </li>
+                        <li>
+                            spaceship No.2:
+                            <input type="button" value="launch" />
+                            <input type="button" value="fly" />
+                            <input type="button" value="stop" />
+                            <input type="button" value="destory" />
+                        </li>
+                        <li>
+                            spaceship No.3:
+                            <input type="button" value="launch" />
+                            <input type="button" value="fly" />
+                            <input type="button" value="stop" />
+                            <input type="button" value="destory" />
+                        </li>
+                        <li>
+                            spaceship No.4:
+                            <input type="button" value="launch" />
+                            <input type="button" value="fly" />
+                            <input type="button" value="stop" />
+                            <input type="button" value="destory" />
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+            <script type="text/javascript" src="resource/js/page26.js"></script>
 
         </div>
         <div class="footer" id="footer">
@@ -70,6 +85,6 @@
             <div><img alt="here is a picture" class="footerimg" src="resource/img/forMySelf/footer2.png" /></div>
         </div>
     </div>
-    <script type="text/javascript" src="resource/js/forMySelf_blog.js"></script>
+    <script type="text/javascript" src="resource/js/page26.js"></script>
 </body>
 </html>

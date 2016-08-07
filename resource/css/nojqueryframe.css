@@ -1,0 +1,218 @@
+﻿body{
+    width:1200px;
+    margin:auto;
+    color:black;
+}
+ul,ul li{
+    margin:0;
+    padding:0;
+
+}
+*{
+    margin:0;
+    padding:0;
+
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+.fontone{
+    font-size:23px;
+    font-weight:bold;
+}
+.fonttwo{
+    font-size:14px;
+    font-weight:bold;
+    opacity:0.4;
+    filter: Alpha(opacity=40);
+}
+.nav-top li{
+    float:left;
+    width:70px;
+    margin:0 15px 0 15px;
+    text-align:center;
+    line-height:50px;
+    height:50px;
+    border-bottom:5px white solid;
+    color:black;
+    font-weight:bold;
+    opacity:0.4;
+    filter: Alpha(opacity=40);
+
+}
+.nav-top>li:visited,.nav-top>li:hover,.nav-top>li:active{
+    border-bottom:5px red solid;
+    color:red;
+}
+.floatleft{
+    float:left;
+}
+.floatright{
+    float:right;
+}
+.booksimg img{
+    margin-bottom:-16px;
+}
+.topimg img{
+    width:100%;
+}
+.clear:after{
+    content:'.';
+    height:0;
+    visibility:hidden;
+    clear:both;
+}
+.imgcorridorone{
+    /*display:table;*/
+    width:90%;
+    overflow:hidden;
+}
+.imgcorridorone>div{
+    float:left;
+}
+.header .imgcorridorone{
+    margin:auto auto 55px auto;
+}
+.content .imgcorridorone{
+    margin:auto auto 20px auto;
+}
+div.imgcorridorone>div{
+    /*display:table-cell;*/
+    width:25%;
+    text-align:center;
+}
+div.imgcorridorone>div div,div.imgcorridorone>div p{
+    /*display:table-cell;*/
+        width:70%;
+        margin:10px auto auto;
+}
+.knowmoreimg img{
+    width:100%;
+}
+.search_container{
+    padding-top:40px;
+    height:250px;
+    text-align:center;
+    background:url('/resource/img/jqueryui/search_backimg.png');
+    /*background-size:contain;*/
+    background-repeat:repeat;
+    /*width:80%;*/
+    /*margin:auto;*/
+}
+.underline{
+    height:5px;
+    width:35px;
+    margin:10px auto 15px;
+}
+.search_container>ul{
+    height:120px;
+    width:80%;
+    margin:50px auto 20px;
+}
+.search_container>ul li{
+    position:relative;
+}
+.search_container>ul>li{
+    float:left;
+    /*width:25%;
+    margin:auto;*/
+    border:none;
+    margin-right:25px;
+
+}
+
+.search_container>ul>li.last{
+    margin-right:0px;
+}
+.search_container>ul>li>input{
+    background-image:url('/resource/img/page7/icon_down.png');
+    background-repeat:no-repeat;
+    background-position:98% center;
+    border:none;
+}
+.search_container>ul>li>input.last{
+    background-image:none;
+    background-color:#cd5c5c;
+}
+/*.search_container>ul>li>img{
+    position:absolute;
+    left:198px;
+    top:10px;
+}*/
+.search_container>ul>li input{
+    width:205px;
+    padding:10px 10px 10px 10px;
+}
+.search_container>ul>li>ul{
+    display:none;
+    position: absolute;
+}
+.search_container>ul>li:hover>ul{
+    display:block;
+    margin:auto;
+    width:225px;
+    background-color:#C0C0C0;
+    color:white;
+    text-align:left;    
+}
+.search_container>ul>li>ul>li{
+    height:30px;
+    line-height:30px;
+    padding-left:30px;
+}
+.search_container>ul>li>ul li:hover{
+background-color:#cd5c5c;
+}
+.search_container>ul>li>ul li:hover{
+    background-image:url('/resource/img/page7/search_select.png');
+    background-repeat:no-repeat;
+    background-position:2% center;
+}
+.search_container>p{
+    color:white;
+}
+.search_container>p:nth-child(1){
+    font-size:23px;
+}
+.search_container>p:nth-child(3){
+    font-size:14px;
+    opacity:0.7;
+}
+.imgcorridortwo{
+    width:80%;
+    margin:50px auto;
+    text-align:center;
+    clear:both;
+}
+.imgcorridortwo>div{
+    overflow:hidden;
+    width:25%;
+    float:left;
+    display:inline-block;
+}
+.newworldinfo{
+    padding-top:50px;
+    clear:both;
+}
+.newworldinfo .first{
+    float:left;
+    width:66.6%;
+    height:500px;
+    display:inline;
+    background:url('/resource/img/page7/new_world_time.png') no-repeat;
+}
+.newworldinfo .common{
+    float:left;
+    display:inline;
+    width:33.3%;
+    height:500px;
+    overflow:hidden;
+}
+.newworldinfo .last{
+    background:url('/resource/img/page7/new_time_person.png');
+}

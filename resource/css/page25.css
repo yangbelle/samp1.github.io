@@ -1,0 +1,35 @@
+﻿body,ul{
+  /*  margin:0;
+    padding:0;*/
+}
+ul {
+     list-style: none;/*
+    margin:0px;
+    padding: 0px;
+    list-style-image: url('resource/img/page40/icon_point_right.png');*/
+}
+/*ul  li:before{
+        content:url('resource/img/page40/icon_point_right.png');
+
+}*/
+img{
+    height:20px;
+}
+ul.firstUL>li:before{
+    content:url('../resource/img/page25/icon_down.png');
+}
+ul li ul li ul{
+    display:none;
+}
+ul li {
+    position:relative;
+}
+ul li div.add_minus{
+    position:absolute;
+    top:0px;
+    left:70px;
+}
+
+.closed{
+    content:url('resource/img/page25/icon_point_right.png');
+}

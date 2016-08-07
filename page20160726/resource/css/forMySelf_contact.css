@@ -1,0 +1,106 @@
+﻿body {
+}
+body.contact .content div.introduction{
+    width:40%;
+}
+.content div.introduction p.title{
+    font-size:30px;
+    font-weight:bold;
+        opacity:0.7;
+    filter: alpha(opacity=70);
+}
+.content div.introduction p{
+
+}
+.content div.imagemap{
+    padding:4px;
+    width:46%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    text-align:center;
+}
+ .content img.Hydrangeas,.content li a:hover span.Hydrangeas{
+    transform: rotate(-2deg);
+-ms-transform: rotate(-2deg); /* IE 9 */
+-webkit-transform: rotate(-2deg); /* Safari and Chrome */
+}
+ .content img.Jellyfish,.content li a:hover span.Jellyfish{
+    transform: rotate(2deg);
+-ms-transform: rotate(2deg); /* IE 9 */
+-webkit-transform: rotate(2deg); /* Safari and Chrome */
+
+ }
+ .content img.Penguins,.content li a:hover span.Penguins{
+    transform: rotate(-2deg);
+-ms-transform: rotate(-2deg); /* IE 9 */
+-webkit-transform: rotate(-2deg); /* Safari and Chrome */
+}
+ .content img.Tulips,.content li a:hover span.Tulips{
+    transform: rotate(5deg);
+-ms-transform: rotate(5deg); /* IE 9 */
+-webkit-transform: rotate(5deg); /* Safari and Chrome */
+
+ }
+.content ul.persons{
+    text-align:left;
+ 
+}
+.content UL.persons li{
+    width:100%;
+}
+.content ul.persons,.content div.imagemap,.content div.introduction{
+    float:left;
+    display:inline;
+}
+.content ul.persons span.career{
+    display:block;
+}
+.content ul.persons span.linktext{
+    width:auto;
+}
+.content ul.persons li a{
+    width:auto;
+    cursor:pointer;
+}
+.content ul.persons span.linktext{
+    font-size:20px;
+    font-weight:bold;
+    opacity:0.4;
+    filter: Alpha(opacity=40);
+    text-decoration:underline;
+}
+.content ul.persons li{
+    margin-bottom:30px;
+}
+.content ul.persons li a:hover span.hotspot,.content ul.persons li a:focus span.hotspot{
+    position:absolute;
+    width:203px;
+    height:203px;
+}
+.content ul.persons span.Hydrangeas{
+    right:37%;
+    top:0;
+}
+.content ul.persons span.Jellyfish{
+    left:63%;
+    top:0;
+}
+.content ul.persons span.Lighthouse{
+    right:37%;
+    top:204px;
+}
+.content ul.persons span.Penguins{
+    left:63%;
+    top:204px;
+}
+.content ul.persons span.Tulips{
+    right:37%;
+    top:409px;
+}
+.content ul.persons span.Desert{
+    left:63%;
+    top:409px;
+}
+.content ul.persons li a:hover span.hotspot,.content ul.persons li a:focus span.hotspot{
+    border: 2px red solid;
+}

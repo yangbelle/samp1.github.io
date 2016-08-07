@@ -1,0 +1,9 @@
+﻿.content{
+    min-height:500px;
+}
+.li_color_even{
+        background-color:#81132e;
+}
+.li_color_odd{
+    background-color:#a30a1b;
+}

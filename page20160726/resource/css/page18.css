@@ -1,0 +1,16 @@
+﻿body {
+}
+span {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    color:black;
+    background-color:red;
+    margin-right:15px;
+    text-align:center;
+    line-height:30px;
+}
+button {
+    height: 20px;
+    width: 80px;
+}

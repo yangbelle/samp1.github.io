@@ -1,0 +1,24 @@
+﻿tr {
+    height: 50px;
+}
+
+.input_text {
+    width: 300px;
+    padding:10px 0 10px 0px;
+    border-radius: 4px;
+}
+.input_submit {
+    height:30px;
+    width:80px;
+    border-radius:4px;
+    background-color:#1e90ff;
+    color:white;
+    font-weight:bold;
+}
+.td_title {
+    width: 20%;
+    text-align: right;
+    vertical-align: central;
+    padding-right: 10px;
+    font-weight:bold;
+}

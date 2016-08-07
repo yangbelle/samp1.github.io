@@ -1,0 +1,13 @@
+﻿.container #tabs{
+    z-index:1;
+    text-align:left;
+}
+.select{
+background-color:#eee;
+}
+.container .record,.container .record ul.pagination{
+   text-align:center;
+}
+.record{
+    margin-top:20px;
+}

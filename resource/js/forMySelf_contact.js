@@ -1,0 +1,8 @@
+﻿(function () {
+    var introInHtml = document.getElementsByClassName("introduction")[0];
+    var data={intro:"we are a team,CSS files The themes directory (located under development-bundle) contains the CSS files. It  consists of various directories, each containing themes (e.g., the base, smoothness, and  ui-lightness directories). Each theme includes an images directory and other CSS files.  The jquery.ui.core.css file contains basic functionality (required), while other files will be included only if they are required. The jquery.ui.theme.css file contains the definition of the theme itself (required).  The jquery.ui.base.css file includes all of the files in the development-bundle directory except jquery.ui.theme.css. The jquery.ui.all.css file includes all files (that is to say, jquery.ui.base.css and jquery.ui.theme.css). Finally, the file ending with custom.css (e.g., jquery-ui-1.8.16.custom.css) includes all  CSS files and eliminates the need to include each separately (it is identical to jquery.ui.all.css, except that it includes other files via CSS directives, while custom.css physically includes every line of all files). Sample HTML page including uncompressed files CSS files The themes directory (located under development-bundle) contains the CSS files. It  consists of various directories, each containing themes (e.g., the base, smoothness, and ui-lightness directories). Each theme includes an images directory and other CSS files."}
+    var replaceHtml=introInHtml.innerHTML.replace(/\{introduction\}/, function (match, pos, originalText) {
+        return data.intro;
+    });
+    introInHtml.innerHTML = replaceHtml;
+})()

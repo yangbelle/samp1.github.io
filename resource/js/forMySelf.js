@@ -106,7 +106,11 @@
     
 
     });
-
+    function test(event){
+        console.log(event.type);
+        timerNum = event.target.value;
+    }
+    $(carousel).on('click',test.bind(this.event));
     //form1
     var blurTarg = document.getElementsByClassName("input_text");
     var hintText = [
@@ -130,7 +134,7 @@
                 flag = /[A-z0-9\u0391-\uFFE5]{4,16}$/.test(inputValue);
                 break;
             case 1:
-                flag = /[0-9]{4,16}$/.test(inputValue);
+                flag = /([0-9][a-zA-Z]){4,16}/.test(inputValue);
                 break;
             case 2:
                 var previousTr = this.parentNode.parentNode.parentNode.previousSibling;
@@ -143,9 +147,13 @@
                 flag = inputValue == passwordVal;
                 break;
             case 3:
-                flag = "";
+                flag = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((.[a-zA-Z0-9_-]{2,3}){1,2})$/.test(inputValue);
                 break;
             case 4:
+                flag = /[0-9]{4,16}/.test(inputValue);
+                break;
+            default:
+                return false;
         }
         if (flag) {
             this.style.borderColor = "green";
